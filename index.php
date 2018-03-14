@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($name)) {
         echo "Name is empty";
     } else {
-        echo $name." is this";
+        echo $name;
     }
 }	
 echo "<br>";
