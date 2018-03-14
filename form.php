@@ -98,6 +98,7 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
+echo "<br>ciao";
 ?>
 
 </body>
