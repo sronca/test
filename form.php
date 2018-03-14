@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   
   if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
+    $emailErr = "Email IS required";
   } else {
     $email = test_input($_POST["email"]);
     // check if e-mail address is well-formed
